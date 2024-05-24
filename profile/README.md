@@ -63,6 +63,38 @@ The second and third Node types correspond to two implementations of hydro power
 The individual packages of **EnergyModelsX** are under constant development.
 Hence, breaking changes can occur, although we aim at maintaining backwards compatibility for developed models through the application of constructors.
 
+## Cite
+
+If you find `EnergyModelsX` useful in your work, we kindly request that you cite the following [publication](https://doi.org/10.21105/joss.06619):
+
+```bibtex
+@article{hellemo2024energymodelsx,
+  title={EnergyModelsX: Flexible Energy Systems Modelling with Multiple Dispatch},
+  author={Hellemo, Lars and B{\o}dal, Espen Flo and Holm, Sigmund Eggen and Pinel, Dimitri and Straus, Julian},
+  journal={Journal of Open Source Software},
+  volume={9},
+  number={97},
+  pages={6619},
+  year={2024}
+}
+```
+
+For earlier work, see our [paper in Applied Energy](https://www.sciencedirect.com/science/article/pii/S0306261923018482):
+
+```bibtex
+@article{boedal_2024,
+  title = {Hydrogen for harvesting the potential of offshore wind: A {N}orth {S}ea case study},
+  journal = {Applied Energy},
+  volume = {357},
+  pages = {122484},
+  year = {2024},
+  issn = {0306-2619},
+  doi = {https://doi.org/10.1016/j.apenergy.2023.122484},
+  url = {https://www.sciencedirect.com/science/article/pii/S0306261923018482},
+  author = {Espen Flo B{\o}dal and Sigmund Eggen Holm and Avinash Subramanian and Goran Durakovic and Dimitri Pinel and Lars Hellemo and Miguel Mu{\~n}oz Ortiz and Brage Rugstad Knudsen and Julian Straus}
+}
+```
+
 ## Acknowledgement
 
 The development of **EnergyModelsX** has been funded by the Norwegian Research Council in the project [Clean Export](https://www.sintef.no/en/projects/2020/cleanexport/), project number [308811](https://prosjektbanken.forskningsradet.no/project/FORISS/308811).
