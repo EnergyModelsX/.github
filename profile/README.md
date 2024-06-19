@@ -58,6 +58,13 @@ EnergyModelsRenewableProducers introduces three new technology descriptions for 
 The first Node type can be used for representing non-dispatchable renewable energy sources like wind or solar PV power.
 The second and third Node types correspond to two implementations of hydro power, a regulated hydropower plant and a pumped hydro storage unit.
 
+#### [EnergyModelsGUI.jl](https://github.com/EnergyModelsX/EnergyModelsGUI.jl)
+
+EnergyModelsGUI provides a graphical user interface (GUI) for a fast visualization of both the graph of the energy system and the results of an analysis.
+The visualization of the graph is based on the provided `case` dictionary, and hence, independent of whether the model is solved or not.
+Model results can be visualized based on the `JuMP.model`.
+It is planned in a latter stage to allow the visualization of results from saved .csv files.
+
 ## Disclaimer
 
 The individual packages of **EnergyModelsX** are under constant development.
