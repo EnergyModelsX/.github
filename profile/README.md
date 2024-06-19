@@ -106,3 +106,5 @@ For earlier work, see our [paper in Applied Energy](https://www.sciencedirect.co
 
 The development of **EnergyModelsX** has been funded by the Norwegian Research Council in the project [Clean Export](https://www.sintef.no/en/projects/2020/cleanexport/), project number [308811](https://prosjektbanken.forskningsradet.no/project/FORISS/308811).
 The authors gratefully acknowledge the financial support from the user partners Å Energi, Air Liquide, Equinor Energy, Gassco, and Total OneTech.
+
+The development of **EnergyModelsGUI** has been funded by the European Union’s Horizon Europe research and innovation programme in the project [Flex4Fact](https://flex4fact.eu/home-3/) under grant agreement [101058657](https://doi.org/10.3030/101058657).
