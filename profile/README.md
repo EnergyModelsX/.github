@@ -55,8 +55,16 @@ EnergyModelsInvestments utilizes a weak dependency for geographical investments.
 #### [EnergyModelsRenewableProducers.jl](https://github.com/EnergyModelsX/EnergyModelsRenewableProducers.jl)
 
 EnergyModelsRenewableProducers introduces three new technology descriptions for describing renewable power generation technologies.
-The first Node type can be used for representing non-dispatchable renewable energy sources like wind or solar PV power.
+The first node type can be used for representing non-dispatchable renewable energy sources like wind or solar PV power.
 The second and third Node types correspond to two implementations of hydro power, a regulated hydropower plant and a pumped hydro storage unit.
+
+#### [EnergyModelsCO2.jl](https://github.com/EnergyModelsX/EnergyModelsCO2.jl)
+
+EnergyModelsCO2 introduces four new technology descriptions for describing technologies within the CO₂ capture and storage value chain.
+The first node type is a CO₂ source as the reference source does not allow for CO₂ as output.
+The second node type is a CO₂ storage node in which the CO₂ accumulates over the individual strategic periods.
+The third and forth node type represent an approach for retrofitting CO₂ capture to an existing process.
+It is required if you want to model investments in only the CO₂ capture unit.
 
 #### [EnergyModelsGUI.jl](https://github.com/EnergyModelsX/EnergyModelsGUI.jl)
 
