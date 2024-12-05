@@ -54,17 +54,25 @@ EnergyModelsInvestments utilizes a weak dependency for geographical investments.
 
 #### [EnergyModelsRenewableProducers.jl](https://github.com/EnergyModelsX/EnergyModelsRenewableProducers.jl)
 
-EnergyModelsRenewableProducers introduces three new technology descriptions for describing renewable power generation technologies.
+EnergyModelsRenewableProducers introduces several new technology descriptions for renewable power generation technologies.
 The first node type can be used for representing non-dispatchable renewable energy sources like wind or solar PV power.
-The second and third Node types correspond to two implementations of hydro power, a regulated hydropower plant and a pumped hydro storage unit.
+Two node types correspond to two simplified implementations of hydro power, a regulated hydropower plant and a pumped hydro storage unit.
+Detailed hydro power is furthermore implemented *via* several additional nodes modelling waterways and non-linear power-flow relationships.
 
 #### [EnergyModelsCO2.jl](https://github.com/EnergyModelsX/EnergyModelsCO2.jl)
 
-EnergyModelsCO2 introduces four new technology descriptions for describing technologies within the CO₂ capture and storage value chain.
+EnergyModelsCO2 introduces four new technology descriptions for technologies within the CO₂ capture and storage value chain.
 The first node type is a CO₂ source as the reference source does not allow for CO₂ as output.
 The second node type is a CO₂ storage node in which the CO₂ accumulates over the individual strategic periods.
 The third and forth node type represent an approach for retrofitting CO₂ capture to an existing process.
 It is required if you want to model investments in only the CO₂ capture unit.
+
+#### [EnergyModelsHydrogen.jl](https://github.com/EnergyModelsX/EnergyModelsHydrogen.jl)
+
+EnergyModelsHydrogen introduces sevel new technology descriptions for hydrogen technologies.
+The first two node types are modelling electrolysis with stack replacment (both) and stack degradation (only one).
+One node implements natural gas reforming with the potential for start-up, shutdown, and offline times and costs.
+Two nodes implement hydrogen storage, one simplified, the other more detailed in which the compression requirement is depending on the storage level.
 
 #### [EnergyModelsGUI.jl](https://github.com/EnergyModelsX/EnergyModelsGUI.jl)
 
@@ -116,3 +124,5 @@ The development of **EnergyModelsX** has been funded by the Norwegian Research C
 The authors gratefully acknowledge the financial support from the user partners Å Energi, Air Liquide, Equinor Energy, Gassco, and Total OneTech.
 
 The development of **EnergyModelsGUI** has been funded by the European Union’s Horizon Europe research and innovation programme in the project [Flex4Fact](https://flex4fact.eu/home-3/) under grant agreement [101058657](https://doi.org/10.3030/101058657).
+
+The development of **EnergyModelsHydrogen** has been funded in addition to [Clean Export](https://www.sintef.no/en/projects/2020/cleanexport/) by the European Union’s Horizon Europe research and innovation programme in the project [iDesignRES](https://idesignres.eu/) under grant agreement [101095849](https://doi.org/10.3030/101095849).
