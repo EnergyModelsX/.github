@@ -74,6 +74,13 @@ The first two node types are modelling electrolysis with stack replacment (both)
 One node implements natural gas reforming with the potential for start-up, shutdown, and offline times and costs.
 Two nodes implement hydrogen storage, one simplified, the other more detailed in which the compression requirement is depending on the storage level.
 
+#### [EnergyModelsHeat.jl](https://github.com/EnergyModelsX/EnergyModelsHeat.jl)
+
+EnergyModelsHeat provides new technologies for modelling district heating.
+The key concepts are based on a new introduced resource, `ResourceHeat`, which includes temperature profiles in given regions.
+Based on the resource, the package provides description for a district heating pipe with capacity and loss, a heat pump, a thermal energy storage, and a heat-exchanger that can be utilized to identify the potential energy recovery from a surplus stream.
+It also includes a C++ model of a biomass combined heat and power plant which will be incorporated into an EMX node in a latter stage.
+
 #### [EnergyModelsGUI.jl](https://github.com/EnergyModelsX/EnergyModelsGUI.jl)
 
 EnergyModelsGUI provides a graphical user interface (GUI) for a fast visualization of both the graph of the energy system and the results of an analysis.
