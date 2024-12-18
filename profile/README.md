@@ -133,3 +133,5 @@ The authors gratefully acknowledge the financial support from the user partners 
 The development of **EnergyModelsGUI** has been funded by the European Union’s Horizon Europe research and innovation programme in the project [Flex4Fact](https://flex4fact.eu/home-3/) under grant agreement [101058657](https://doi.org/10.3030/101058657).
 
 The development of **EnergyModelsHydrogen** has been funded in addition to [Clean Export](https://www.sintef.no/en/projects/2020/cleanexport/) by the European Union’s Horizon Europe research and innovation programme in the project [iDesignRES](https://idesignres.eu/) under grant agreement [101095849](https://doi.org/10.3030/101095849).
+
+The development of **EnergyModelsHeat** was funded by the Norwegian Research Council in the project [ZEESA](https://www.sintef.no/en/projects/2023/zeesa-zero-emission-energy-systems-for-the-arctic/), project number [336342](https://prosjektbanken.forskningsradet.no/project/FORISS/336342), as well as the European Union’s Horizon Europe research and innovation programme in the project [iDesignRES](https://idesignres.eu/) under grant agreement [101095849](https://doi.org/10.3030/101095849).
